@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { useCreateFAQMutation,  useGetFAQQuery, useUpdateFAQMutation, useGetAllFAQsQuery } from "../../state/faq/faqApi";
+import { useCreateFAQMutation,  useGetFAQQuery, useUpdateFAQMutation, useGetAllFAQsQuery } from "../../state/api/api";
 import { useNavigate, useParams } from "react-router-dom";
 
 const EditFaqForm = () => {

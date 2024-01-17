@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useForm, useFieldArray } from 'react-hook-form';
-import { useGetServiceQuery, useUpdateServiceMutation, useGetAllServicesQuery } from '../../state/services/serviceApi';
+import { useGetServiceQuery, useUpdateServiceMutation, useGetAllServicesQuery } from '../../state/api/api';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const EditServiceForm = () => {

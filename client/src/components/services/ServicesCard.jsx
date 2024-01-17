@@ -4,7 +4,7 @@ import { MdDelete } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
 
-import { useDeleteServiceMutation } from "../../state/services/serviceApi";
+import { useDeleteServiceMutation } from "../../state/api/api";
 
 const ServiceCard = ({ item, refetchServices }) => {
   const [deleteService, { isLoading, isError }] = useDeleteServiceMutation();

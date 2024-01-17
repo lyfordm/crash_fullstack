@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { useGetAllServicesQuery } from "../state/services/serviceApi"
+import { useGetAllServicesQuery } from "../state/api/api"
 import ServiceCard from "../components/services/ServicesCard"
 
 const Services = () => {

@@ -3,7 +3,7 @@ import { useForm, useFieldArray } from "react-hook-form";
 import {
   useCreateServiceMutation,
   useGetAllServicesQuery,
-} from "../../state/services/serviceApi";
+} from "../../state/api/api";
 import { useNavigate } from "react-router-dom";
 
 const ServiceForm = () => {

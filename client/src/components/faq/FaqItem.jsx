@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 import { CiEdit } from 'react-icons/ci';
 import { MdDelete } from 'react-icons/md';
-import { useDeleteFAQMutation } from '../../state/faq/faqApi';
+import { useDeleteFAQMutation } from '../../state/api/api';
 import { useNavigate } from 'react-router-dom';
 
 const FaqItem = ({ item, refetchFAQs }) => {

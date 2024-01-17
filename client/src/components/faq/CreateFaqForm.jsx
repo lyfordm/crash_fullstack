@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { useCreateFAQMutation, useGetAllFAQsQuery } from "../../state/faq/faqApi";
+import { useCreateFAQMutation, useGetAllFAQsQuery } from "../../state/api/api";
 import { useNavigate } from "react-router-dom";
 
 const CreateFaqForm = () => {

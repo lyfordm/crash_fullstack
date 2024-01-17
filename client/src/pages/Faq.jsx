@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { useGetAllFAQsQuery} from "../state/faq/faqApi"
+import { useGetAllFAQsQuery} from "../state/api/api"
 import FaqItem from "../components/faq/FaqItem"
 
 const Faq = () => {
